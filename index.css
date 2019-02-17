@@ -1,0 +1,84 @@
+h3 {
+  font-size: 13px;
+  font-style: arial;
+
+}
+
+.uper-navi {
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+}
+
+.navi-login .login-box {
+  border: 1px;
+  border-color: #406cef;
+  background-color: #406cef;
+  color: #FFFFFF;
+  text-align: center;
+  height: 30px;
+  width: 64px;
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
+
+#login{
+  padding-top: 6px;
+}
+
+.navi-app i{
+  font-size: 1.2em;
+  padding-top: 5px;
+}
+
+.navi-gmail,
+.navi-image,
+.navi-app,
+.navi-login {
+  padding-right: 18px;
+}
+
+
+.google-main .google{
+  margin-top: 198px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.search-bar__container,
+.keyboard,
+.microPhone{
+  padding-left: 20px;
+}
+
+.search-bar .search-bar__container{
+  display: flex;
+  justify-content: center;
+  margin: 27px;
+  height: : 45px;
+  border-radius: 2%;
+  background-color: #FFFFFF;
+}
+
+.input-bar__container{
+  display: flex;
+  justify-content: center;
+}
+
+.input-bar__container .google-search,
+.Im-Feeling-Lucky{
+  color: #757575;
+  background-color: #F4F4F4;
+  padding : 2px 16px
+
+}
+
+.google-search{
+  margin-right: 12px;
+
+}
+
+.Im-Feeling-Lucky{
+
+}
