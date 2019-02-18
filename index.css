@@ -52,25 +52,57 @@ h3 {
   padding-left: 20px;
 }
 
+.search-bar{
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.search-bar .left-container{
+  width: 623px;
+  min-width: 282px;
+}
+
+
+
 .search-bar .search-bar__container{
   display: flex;
-  justify-content: center;
-  margin: 27px;
-  height: : 45px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 27px;
   border-radius: 2%;
-  background-color: #FFFFFF;
+  border: 1px solid #CDCDCD;
+  box-sizing: border-box;
+  width: 586px;
+  height: 45px;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.input .input-search{
+  border-left: 10px;
+  width: 476px;
+  font-size: 13px;
+  border: none;
+  height: 40px;
+
 }
 
 .input-bar__container{
   display: flex;
   justify-content: center;
+  margin-top: 27px;
 }
 
 .input-bar__container .google-search,
 .Im-Feeling-Lucky{
+
   color: #757575;
   background-color: #F4F4F4;
-  padding : 2px 16px
+  padding: 2px 16px ;
+  text-align: center;
+  vertical-align: text-top;
+  position: relative;
 
 }
 
@@ -79,6 +111,8 @@ h3 {
 
 }
 
-.Im-Feeling-Lucky{
+#Im-Feeling-Lucky,
+#google-search{
+
 
 }
