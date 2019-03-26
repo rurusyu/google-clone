@@ -4,6 +4,10 @@ h3 {
 
 }
 
+body {
+  margin : 8px 0px 0px 0px;
+}
+
 .uper-navi {
  display: flex;
  justify-content: flex-end;
@@ -38,6 +42,10 @@ h3 {
   padding-right: 18px;
 }
 
+#linkGmail {
+  text-decoration-line: none;
+  color: #000000;
+}
 
 .google-main .google{
   margin-top: 198px;
@@ -55,11 +63,12 @@ h3 {
 .search-bar{
   position: relative;
   display: flex;
+
   justify-content: flex-start;
 }
 
 .search-bar .left-container{
-  width: 623px;
+  width: 470px;
   min-width: 282px;
 }
 
@@ -70,7 +79,7 @@ h3 {
   justify-content: flex-start;
   align-items: center;
   margin-top: 27px;
-  border-radius: 2%;
+  border-radius: 50px;
   border: 1px solid #CDCDCD;
   box-sizing: border-box;
   width: 586px;
@@ -109,4 +118,38 @@ h3 {
 .google-search{
   margin-right: 12px;
 
+}
+
+.footer{
+  margin-top: 197px;
+  margin-left: 0;
+  margin-bottom: 0; 
+  background-color: #f2f2f2;  
+  justify-content: end;
+
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  min-width: 980px;
+}
+
+.footer .footer-korea{
+  font-size: 15px;
+  margin-left : 0;
+}
+
+.footer .footer-bottom-left
+,.footer-bottom-right{
+  font-size: 13px;
+}
+
+.footer .footer-bottom-left
+{
+  margin-left: 30px;
+  display: flex;
+}
+
+.footer .footer-bottom-right
+{
+  padding-left:  27px;
+  margin : 0 !important
 }
